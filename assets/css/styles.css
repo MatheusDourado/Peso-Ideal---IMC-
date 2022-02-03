@@ -1,0 +1,28 @@
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 155px !important;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none !important;
+  border-radius: .3rem;
+  outline: 0;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+#resultado > p {
+  color: var(--bs-gray-700);
+}
+
